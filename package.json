@@ -50,9 +50,6 @@
     "lint-staged": "^15.2.2"
   },
   "lint-staged": {
-    "**/*.{js,jsx}": [
-      "npm run lint",
-      "prettier --write"
-    ]
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
